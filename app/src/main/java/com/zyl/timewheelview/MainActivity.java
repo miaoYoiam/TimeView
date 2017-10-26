@@ -12,6 +12,9 @@ import com.zyl.time.view.WheelTime;
 
 import java.util.Date;
 
+//import com.zyl.time.TimePickerView;
+//import com.zyl.time.view.WheelTime;
+
 public class MainActivity extends AppCompatActivity {
     TextView show;
     TimePickerView timePickerView;
@@ -60,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
         wheelTime = timePickerView.getWheelTime();
         wheelTime.getWv_year().setTextColorCenter(R.color.color_c3);
         wheelTime.getWv_day().setTextColorCenter(R.color.color_c3);
+//        ViewGroup.LayoutParams params = wheelTime.getView().getLayoutParams();
+//        params.height = dip2px(this, 200);
     }
 
     public int dip2px(Context context, float dipValue) {
