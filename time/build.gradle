@@ -3,7 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.miaoYoaim'
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    buildToolsVersion "25"
 
     defaultConfig {
         minSdkVersion 15
